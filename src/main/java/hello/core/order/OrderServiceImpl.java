@@ -1,13 +1,14 @@
 package hello.core.order;
 
 import hello.core.discount.DiscountPolicy;
+import hello.core.discount.FixDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 
 public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
-    private DiscountPolicy discountPolicy;
+    private DiscountPolicy discountPolicy = new FixDiscountPolicy();
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
