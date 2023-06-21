@@ -1,0 +1,10 @@
+BeanFactory
+    스프링 컨테이너의 최상위 인터페이스다
+    스프링 빈을 관리하고 조회하는 역할을 담당한다
+    "getBean()"을 제공한다
+    직접 사용할일은 거의x
+
+ApplicationContext
+    BeanFactory 기능을 모두 상속받아서 제공한다
+    빈 관리기능 + 편리한 부가 기능 제공
+
