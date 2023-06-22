@@ -1,0 +1,10 @@
+컴포넌트 스캔 기본 대상
+컴포넌트 스캔은 "@Componet" 뿐만 아니라 다음 내용도 추가 대상으로 포함
+    @Component
+    @Controller
+    @Service
+    @Repository
+    @Configuration
+
+애노테이션에는 상속관계라는 것이 없다
+자바언어가 지원하는 기능이 아니고, 스프링이 지원하는 기능이다
