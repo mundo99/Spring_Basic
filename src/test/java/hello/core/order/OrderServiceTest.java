@@ -29,4 +29,5 @@ public class OrderServiceTest {
         Assertions.assertThat(order.getDicountPrice()).isEqualTo(1000);
     }
 
+
 }

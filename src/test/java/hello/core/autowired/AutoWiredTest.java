@@ -27,7 +27,6 @@ public class AutoWiredTest {
         @Autowired
         public void setNoBean2(@Nullable Member noBean2){ //호출은 되지만 null로 들어오
             System.out.println("noBean2 = " + noBean2);
-
         }
 
         @Autowired
