@@ -1,0 +1,4 @@
+@Autowired(reauire = false) : 자동 주입할 대상이 없으면 수정자 메서드 자체가 호출이 안됨
+                     true (기본값)
+@Nullable : 자동 주입할 대상이 없으면 null이 입력된다
+Optional<> : 자동 주입할 대상이 없으면 optional.empty가 입력된다
