@@ -1,0 +1,4 @@
+@Getter
+@Setter - 게터세터 자동으로 만들어줌
+
+@RequiredArgsConstructo - final키워드가 붙은걸 자동으로 생서자를 주입해줌
