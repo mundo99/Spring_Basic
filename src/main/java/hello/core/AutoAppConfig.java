@@ -22,9 +22,10 @@ import org.springframework.stereotype.Component;
 public class AutoAppConfig {
 
 
-    @Bean(name = "memoeyMemberRepository")
+/*    @Bean(name = "memoeyMemberRepository")
     MemberRepository memberRepository(){
         return new MemoryMemberRepository();
-    }
+
+    }*/
 
 }
